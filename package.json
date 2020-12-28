@@ -1,0 +1,41 @@
+{
+  "name": "vscode-brainfuck",
+  "displayName": "Brainfuck",
+  "version": "0.1.0",
+  "description": "Brainfuck debugger for Visual Studio Code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Pablo Bangueses",
+    "email": "pablo@bng5.net"
+  },
+  "license": "MIT",
+  "publisher": "bng5",
+  "keywords": [],
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Debuggers",
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bng5/vscode-brainfuck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bng5/vscode-brainfuck/issues"
+  },
+
+  "contributes": {
+    "languages": [
+      {
+        "id": "brainfuck",
+        "aliases": ["Brainfuck", "bf"],
+        "extensions": [".bf",".b"],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  }
+}
