@@ -27,8 +27,14 @@
   "bugs": {
     "url": "https://github.com/bng5/vscode-brainfuck/issues"
   },
-
   "contributes": {
+    "grammars": [
+      {
+        "language": "brainfuck",
+        "scopeName": "source.brainfuck",
+        "path": "./syntaxes/bf.tmLanguage.json"
+      }
+    ],
     "languages": [
       {
         "id": "brainfuck",
